@@ -1,0 +1,47 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: antiquewhite;
+  background-color: black;
+  margin: auto 0;
+}
+
+.zone {
+  /*padding:30px 50px;*/
+  /*cursor:pointer;*/
+  color: #fff;
+  font-size: 2em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  transition: all 0.3s linear;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.left {
+  margin-right: auto;
+}
+
+li {
+  padding: 20px;
+}
+
+a {
+  color: bisque;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.grid {
+  display: flex;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-layout__content">
+      <div class="auth-layout__content-inner">
+        <div class="register__form">
+          <div>
+            <h1>Sign up</h1>
+            <form action="#">
+              <div class="auth-layout__form-group">
+                <label for="username">Username</label>
+                <div class="form-control">
+                  <input name="username" type="text" value="" />
+                </div>
+              </div>
+              <div class="auth-layout__form-group">
+                <label for="email">Email</label>
+                <div class="form-control">
+                  <input name="email" type="email" value="" />
+                </div>
+              </div>
+              <div class="auth-layout__form-group">
+                <label for="password">Password</label>
+                <div class="form-control">
+                  <span class="bp3-popover-wrapper"
+                    ><span aria-haspopup="true" class="bp3-popover-target"
+                      ><input
+                        type="password"
+                        name="password"
+                        class=""
+                        tabindex="0"
+                        value="" /></span
+                  ></span>
+                </div>
+                <div class="field-note">
+                  Passwords must be at least 8 characters with both upper and
+                  lowercase, one number, and one special character.
+                </div>
+              </div>
+              <div class="auth-layout__form-group">
+                <label for="country">Country of residence</label>
+                <div class="form-control">
+                  <span class="bp3-popover-wrapper"
+                    ><span aria-haspopup="true" class="bp3-popover-target"
+                      ><div class="bp3-input-group">
+                        <input
+                          type="text"
+                          autocomplete="off"
+                          name="country"
+                          placeholder="Search..."
+                          class="bp3-input"
+                          value="Afghanistan"
+                        /></div></span
+                  ></span>
+                </div>
+              </div>
+              <div class="register__term">
+                By signing up I confirm I’ve created a strong and unique
+                password not being used anywhere else and I agree to the
+                <a target="_blank" href="/legal/exchange/terms"
+                  >terms &amp; conditions</a
+                >
+                and
+                <a target="_blank" href="/legal/general/anti-spam"
+                  >anti-spam policy</a
+                >.
+              </div>
+              <button
+                type="submit"
+                class="bp3-button bp3-disabled primary_btn"
+                disabled=""
+                tabindex="-1"
+              >
+                <span class="bp3-button-text">Sign up</span>
+              </button>
+            </form>
+            <div>
+              <iframe
+                src="https://newassets.hcaptcha.com/captcha/v1/2fbe479/static/hcaptcha.html#frame=checkbox&amp;id=015t4cy3hjau&amp;host=www.bitfinex.com&amp;sentry=true&amp;reportapi=https%3A%2F%2Faccounts.hcaptcha.com&amp;recaptchacompat=true&amp;custom=false&amp;hl=en&amp;tplinks=on&amp;sitekey=4674d299-d095-4b1a-8638-3443251be2d9&amp;theme=dark&amp;size=invisible"
+                title="widget containing checkbox for hCaptcha security challenge"
+                tabindex="0"
+                frameborder="0"
+                scrolling="no"
+                aria-hidden="true"
+                data-hcaptcha-widget-id="015t4cy3hjau"
+                data-hcaptcha-response=""
+                style="display: none"
+              ></iframe
+              ><textarea
+                id="g-recaptcha-response-015t4cy3hjau"
+                name="g-recaptcha-response"
+                style="display: none"
+              ></textarea
+              ><textarea
+                id="h-captcha-response-015t4cy3hjau"
+                name="h-captcha-response"
+                style="display: none"
+              ></textarea>
+            </div>
+          </div>
+          <div class="register__term hcaptcha-term">
+            This site is protected by hCaptcha and its <a>Privacy Policy</a> and
+            <a>Terms of Service</a> apply.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
